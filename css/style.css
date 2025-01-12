@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #1e293b;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.main-content {
+  padding: 50px 0;
+  background-color: #1e293b;
+}
+
+.main-content .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content {
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-content h1 {
+  font-size: 36px;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.text-content p {
+  font-size: 16px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.signup-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 5x 20px;
+  border: none;
+  border-radius: 5px;
+  width: 95px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.signup-button:hover {
+  background-color: #2563eb;
+}
+
+.image-placeholder {
+  width: 45%;
+  height: 300px;
+  background-color: #475569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cbd5e1;
+  font-size: 14px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.second-content {
+  background-color: #ffffff;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.second-content > h1 {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.h1-2nd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1.h1-2nd {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 36px #1f2937;
+  font-weight: 900;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 0;
+}
+
+.boxes > div {
+  text-align: center;
+}
+
+.box {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 10px;
+  border: 3px solid #2563eb;
+  border-radius: 10%;
+}
+
+.boxes p {
+  font-size: 19px;
+  color: #333;
+}
+
+.third-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  text-align: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-family: "Helvetica", "Arial", sans-serif;
+  color: #595a5b;
+  font-weight: 300;
+}
+
+.author h1 {
+  display: flex;
+  align-content: end;
+  justify-content: end;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.fourth-content {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3b82f6;
+  padding: 60px;
+  border-radius: 5px;
+}
+
+.sign-up > h1 {
+  color: white;
+}
+
+.sign-up > p {
+  color: white;
+}
+
+.signup-button2 {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 10x 25px;
+  border: none;
+  outline: 1px solid #ffffff;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.fourth-text {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  color: white;
+  height: 100px;
+}
+
+.footer p {
+  font-size: 20px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
